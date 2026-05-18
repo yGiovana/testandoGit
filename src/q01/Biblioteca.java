@@ -12,12 +12,21 @@ public class Biblioteca {
         }
 
 
-        public String getEndereco() { return endereco; }
-        public void setEndereco(String endereco) { this.endereco = endereco; }
+        public String getEndereco() {
+            return endereco;
+        }
+
+        public void setEndereco(String endereco) {
+            this.endereco = endereco;
+        }
 
         public String getTelefone() {
-            return telefone; }
-        public void setTelefone(String telefone) { this.telefone = telefone; }
+            return telefone;
+        }
+
+        public void setTelefone(String telefone) {
+            this.telefone = telefone;
+        }
 
 
         public String toString() {

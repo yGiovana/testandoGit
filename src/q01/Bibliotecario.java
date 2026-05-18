@@ -14,14 +14,29 @@ public class Bibliotecario {
         }
 
 
-        public String getNome() { return nome; }
-        public void setNome(String nome) { this.nome = nome; }
+        public String getNome() {
+            return nome;
+        }
 
-        public String getMatricula() { return matricula; }
-        public void setMatricula(String matricula) { this.matricula = matricula; }
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
 
-        public Biblioteca getUnidadeTrabalho() { return unidadeTrabalho; }
-        public void setUnidadeTrabalho(Biblioteca unidadeTrabalho) { this.unidadeTrabalho = unidadeTrabalho; }
+        public String getMatricula() {
+            return matricula;
+        }
+
+        public void setMatricula(String matricula) {
+            this.matricula = matricula;
+        }
+
+        public Biblioteca getUnidadeTrabalho() {
+            return unidadeTrabalho;
+        }
+
+        public void setUnidadeTrabalho(Biblioteca unidadeTrabalho) {
+            this.unidadeTrabalho = unidadeTrabalho;
+        }
 
 
         public String toString() {

@@ -59,6 +59,8 @@ import java.time.LocalDate;
 
         public String toString() {
             return "Empréstimo: " + exemplar.getLivro().getTitulo() + " para " + usuario.getNome();
+
+            // Realizando alteracao para um treinamento de git
         }
     }
 
